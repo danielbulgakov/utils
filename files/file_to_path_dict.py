@@ -102,13 +102,13 @@ def get_args():
         help="save file info as filepath or file content (path=default|content)"
     )
     parser.add_argument(
-        '-xdir',
+        '-xdirs',
         '--exclude-dirs',
         help="exclude directories by exact name, use | to separate multiple"
              "ex: venv|.git|build"
     )
     parser.add_argument(
-        '-xfile',
+        '-xfiles',
         '--exclude-files',
         help="exclude files by mask, use | to separate multiple"
              "ex: *.log|*.tmp"
